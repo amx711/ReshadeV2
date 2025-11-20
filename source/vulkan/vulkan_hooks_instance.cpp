@@ -253,7 +253,7 @@ static VkResult get_physical_device_tool_properties(VkPhysicalDevice physicalDev
 		return result;
 
 	VkPhysicalDeviceToolPropertiesEXT &tool_props = pToolProperties[(*pToolCount)++];
-	std::strncpy(tool_props.name, "ReShade", VK_MAX_EXTENSION_NAME_SIZE);
+	std::strncpy(tool_props.name, "ElFaR3oN", VK_MAX_EXTENSION_NAME_SIZE);
 	std::strncpy(tool_props.version, VERSION_STRING_PRODUCT, VK_MAX_EXTENSION_NAME_SIZE);
 	tool_props.purposes = VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT_EXT | VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT_EXT;
 	std::strncpy(tool_props.description, "crosire's ReShade post-processing injector", VK_MAX_DESCRIPTION_SIZE);

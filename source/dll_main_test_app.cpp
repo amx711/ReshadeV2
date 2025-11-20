@@ -117,7 +117,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, int nCmdShow
 
 	// Create and show window instance
 	const HWND window_handle = CreateWindow(
-		wc.lpszClassName, TEXT("ReShade ") TEXT(VERSION_STRING_PRODUCT), window_x > 0 && window_y > 0 ? WS_OVERLAPPEDWINDOW : WS_POPUP,
+		wc.lpszClassName, TEXT("ElFar3on ") TEXT(VERSION_STRING_PRODUCT), window_x > 0 && window_y > 0 ? WS_OVERLAPPEDWINDOW : WS_POPUP,
 		window_rect.left, window_rect.top, window_rect.right - window_rect.left, window_rect.bottom - window_rect.top, nullptr, nullptr, hInstance, nullptr);
 
 	if (window_handle == nullptr)
