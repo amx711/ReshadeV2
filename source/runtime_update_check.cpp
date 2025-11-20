@@ -30,7 +30,7 @@ void reshade::runtime::check_for_update()
 	if (handle == nullptr)
 		return;
 
-	constexpr auto api_url = TEXT("https://api.github.com/repos/crosire/reshade/tags");
+	constexpr auto api_url = TEXT("https://api.github.com/repos/amx711/ReshadeV2/tags");
 
 	const scoped_internet_handle request = InternetOpenUrl(handle, api_url, nullptr, 0, INTERNET_FLAG_RELOAD | INTERNET_FLAG_PRAGMA_NOCACHE | INTERNET_FLAG_NO_CACHE_WRITE, 0);
 	if (request == nullptr)

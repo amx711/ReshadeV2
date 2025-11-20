@@ -1049,7 +1049,7 @@ void reshade::runtime::draw_gui()
 		}
 		else
 		{
-			ImGui::TextUnformatted("ReShade " VERSION_STRING_PRODUCT);
+			ImGui::TextUnformatted("ElFaR3oN ReShade");
 
 			if ((s_latest_version[0] > VERSION_MAJOR) ||
 				(s_latest_version[0] == VERSION_MAJOR && s_latest_version[1] > VERSION_MINOR) ||
@@ -1057,12 +1057,12 @@ void reshade::runtime::draw_gui()
 			{
 				ImGui::TextColored(COLOR_YELLOW, _(
 					"An update is available! Please visit %s and install the new version (v%u.%u.%u)."),
-					"https://reshade.me",
+					"https://ElFaR3oN.store/discord",
 					s_latest_version[0], s_latest_version[1], s_latest_version[2]);
 			}
 			else
 			{
-				ImGui::Text(_("Visit %s for news, updates, effects and discussion."), "https://reshade.me");
+				ImGui::Text(_("Visit %s for news, updates, effects and discussion."), "https://ElFaR3oN.store/discord");
 			}
 
 			ImGui::Spacing();
@@ -3133,16 +3133,16 @@ void reshade::runtime::draw_gui_log()
 }
 void reshade::runtime::draw_gui_about()
 {
-	ImGui::TextUnformatted("ReShade " VERSION_STRING_PRODUCT);
+	ImGui::TextUnformatted("ElFaR3oN ReShade");
 
-	ImGui::SameLine(ImGui::GetContentRegionAvail().x - ImGui::CalcTextSize("https://reshade.me").x, ImGui::GetStyle().ItemSpacing.x);
-	ImGui::TextLinkOpenURL("https://reshade.me");
+	ImGui::SameLine(ImGui::GetContentRegionAvail().x - ImGui::CalcTextSize("https://elfar3on.store/").x, ImGui::GetStyle().ItemSpacing.x);
+	ImGui::TextLinkOpenURL("https://elfar3on.store/");
 
 	ImGui::Separator();
 
 	ImGui::PushTextWrapPos();
 
-	ImGui::TextUnformatted(_("Developed and maintained by crosire."));
+    ImGui::TextUnformatted("Main & Base Code By crosire (https://github.com/crosire/reshade), Edited & Improved By ElFaR3oN Head Developer (amx711).");
 	ImGui::TextUnformatted(_("This project makes use of several open source libraries, licenses of which are listed below:"));
 
 	if (ImGui::CollapsingHeader("ReShade", ImGuiTreeNodeFlags_DefaultOpen))

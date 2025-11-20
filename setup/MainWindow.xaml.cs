@@ -579,7 +579,7 @@ namespace ReShade.Setup
 				try
 				{
 
-					client.DownloadStringAsync(new Uri("https://api.github.com/repos/crosire/reshade/tags"));
+					client.DownloadStringAsync(new Uri("https://api.github.com/repos/amx711/ReshadeV2/tags"));
 				}
 				catch (WebException)
 				{
