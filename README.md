@@ -1,9 +1,9 @@
 ReShade V2 (Edited Version of the main one)
 =======
 
-An Edited version of reshade that contain more privacy & security for people who sell / give private graphics in games with reshade
-this tool will help you prevent people to share your graphics files without your consent.
-This Tool is Open Source Tool add your security improvments so it will be safer please don't use it as it is.
+An Edited version of reshade that contain more privacy & security for people who sell / give private graphics in games with ReShade Tool.
+This tool will help you prevent people from sharing your graphics files without your consent.
+This Tool is Open Source Tool add your security improvments so it will be safer ## please don't use it as it is.
 
 ## Edit & Improve the security functions to block threats
 
